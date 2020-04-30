@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+    <Project_Created_Time>2020-04-29 17:47:29</Project_Created_Time>
+    <TD_Version>4.6.18154</TD_Version>
+    <UCode>01010100</UCode>
+    <Name>bldc</Name>
+    <HardWare>
+        <Family>EG4</Family>
+        <Device>EG4S20BG256</Device>
+    </HardWare>
+    <Source_Files>
+        <VHDL>
+            <File>al_ip/cpu_regs/cpu_regs.vhd</File>
+            <File>al_ip/mem_hi/mem_hi.vhd</File>
+            <File>al_ip/mem_lo/mem_lo.vhd</File>
+            <File>al_ip/mem_mh/mem_mh.vhd</File>
+            <File>al_ip/mem_ml/mem_ml.vhd</File>
+            <File>al_ip/pll/pll.vhd</File>
+        </VHDL>
+        <Verilog>
+            <File>pico_rv32/uart.v</File>
+            <File>pico_rv32/top.v</File>
+            <File>pico_rv32/picorv32.v</File>
+        </Verilog>
+        <ADC_FILE>adc&amp;sdc/IO..adc</ADC_FILE>
+        <SDC_FILE>adc&amp;sdc/picorv32_demo.sdc</SDC_FILE>
+        <CWC_FILE/>
+    </Source_Files>
+    <TOP_MODULE>
+        <LABEL/>
+        <MODULE>system</MODULE>
+        <CREATEINDEX>user</CREATEINDEX>
+    </TOP_MODULE>
+    <Project_Settings>
+        <Step_Last_Change>2020-04-30 09:54:45</Step_Last_Change>
+        <Current_Step>60</Current_Step>
+        <Step_Status>true</Step_Status>
+    </Project_Settings>
+</Project>
