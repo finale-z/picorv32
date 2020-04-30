@@ -3,6 +3,4 @@
 #Created Clock
 create_clock -name sys_clk -period 10 [get_ports sys_clk]
 
-#Derive PLL Clocks
-derive_pll_clocks -gen_basic_clock
 
